@@ -7,7 +7,7 @@
 
 ## 🏗️ Architecture Overview
 
-```mermaid
+```mermaid      
 flowchart TB
     subgraph AWS_Cloud ["AWS Cloud (us-east-1)"]
         subgraph VPC ["Custom VPC (10.0.0.0/16)"]
