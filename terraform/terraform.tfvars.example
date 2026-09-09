@@ -18,7 +18,7 @@ backend_repo_name  = "backend-app"
 sender_email = "devops-alerts@yourdomain.com"
 domain_name  = "" # Leave blank or specify "yourdomain.com"
 
-create_github_oidc_provider = true
+create_github_oidc_provider = false # Set to false if token.actions.githubusercontent.com already exists in your AWS IAM
 github_repo_subjects        = [
   "repo:my-github-org/frontend-app:*",
   "repo:my-github-org/backend-app:*",

@@ -18,7 +18,7 @@ backend_repo_name  = "backend-app"
 sender_email = "devops-alerts@example.com"
 domain_name  = ""
 
-create_github_oidc_provider = true
+create_github_oidc_provider = false # Already exists in AWS account (token.actions.githubusercontent.com)
 github_repo_subjects        = [
   "repo:*:*"
 ]

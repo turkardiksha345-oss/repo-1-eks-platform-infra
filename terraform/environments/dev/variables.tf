@@ -72,7 +72,7 @@ variable "domain_name" {
 
 variable "create_github_oidc_provider" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "github_repo_subjects" {
